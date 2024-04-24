@@ -1,6 +1,7 @@
 import binascii
 import unittest
 # Import cryptography library
+from cryptography.fernet import Fernet, InvalidToken
 from app.decrypt import Decryptor
 
 
